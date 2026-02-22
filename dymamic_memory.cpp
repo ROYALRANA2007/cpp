@@ -15,6 +15,9 @@ int main()
     cin>>*b;
     add(*a,*b,*sum);
     cout<<"the sum is :"<<*sum;
+    delete a;
+    delete b;
+    delete sum;
     return 0;
 
 }
